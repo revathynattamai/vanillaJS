@@ -23,3 +23,4 @@ reverseStr = value => {
 // console.log(reverseStr("Revathy"));
 
 
+module.exports = reverseStr;

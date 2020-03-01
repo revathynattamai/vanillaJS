@@ -27,7 +27,11 @@ findTheChar = (maxNum, charMap) => {
       maxChar.push(char);
     }
   }
-  console.log(maxChar);
+  return maxChar;
 };
 
 maxNoOfChar("RevathyKarthik");
+
+module.exports.maxNoOfChar = maxNoOfChar;
+module.exports.findTheNoOccurence = findTheNoOccurence;
+module.exports.findTheChar = findTheChar;
